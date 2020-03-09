@@ -59,8 +59,8 @@
 
 //     }else if(req.method==="POST"&&req.url==="/data"){
 //         var data=[];
-//         req.on('data',(chuck)=>{
-//             data.push(chuck)
+//         req.on('data',(chunck)=>{
+//             data.push(chunck)
 
 //         })
 //         req.on('end',()=>{
@@ -69,18 +69,6 @@
 //             res.statusCode=302
 //           res.setHeader('Location','/')
 
-//             res.setHeader('Content-Type','text/html')
-
-//             res.write(`
-//                 <form method="post" action="/data">
-//                 <input type="text" name="message">
-//                 <input type="submit">
-        
-//                 </form>
-        
-        
-        
-//             `)
 //         res.end()
 
 
